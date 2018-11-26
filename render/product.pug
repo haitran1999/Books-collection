@@ -1,0 +1,51 @@
+extends ../layout/bootstrap.pug
+block bootstrap
+  h1(class="text-center") Books that I have read this year
+    a(href="/product/create", class="btn btn-info" , class="float-right") Add new book
+   
+   
+  .container.pt-5
+    .row
+      each book in books
+        .col-3
+          .card(style='width: 100%' class="mb-4")
+              .bg2
+                a(href="/" + book.name + '.' + book.id)
+                  img.card-img-top(src= book.avatar, height="304px" width="100px" alt='Card image cap')
+              .card-body
+                h5.card-title=book.name
+                h6.card-title=book.author
+                //- p.card-text
+                //-   =book.description
+                
+   
+    .container
+  
+     
+      nav(aria-label='Page navigation example', class="pt-4")
+      h2 TOTAL BOOKS:
+         = total ? total : ""
+      ul.pagination.justify-content-end( style= display ? "display:none" : "")
+        //- li.page-item 
+        //-   a.page-link.first(href='?page=1' ,style= hide1 ? "display:none" : "") <i class="fas fa-angle-double-left"></i>
+        li.page-item
+          a.page-link(href='?page=' + (parseInt(page -1)) ,style= hide1 ? "display:none" : "") <i class="fas fa-chevron-left"></i>
+        li.page-item
+          a.page-link(href=trick1? "?page=" + parseInt(page) : (trick2 ? "?page=" +parseInt(page-1) : "?page=" +parseInt(page-2)) ) #{trick1 ? page : (trick2? page-1 : page-2)}   
+        li.page-item
+           a.page-link(href=trick1? "?page=" + parseInt(page+1) : (trick2 ? "?page=" +parseInt(page): "?page=" +parseInt(page-1)) ) #{trick1 ? page+1 : (trick2? page : page-1)} 
+        li.page-item(style=circle3 ? "display:none" : "")
+           a.page-link(href=trick1? "?page=" + parseInt(page+2) : (trick2 ? "?page=" +parseInt(page+1): "?page=" +parseInt(page)) ) #{trick1 ? page+2 : (trick2? page+1 : page)} 
+        li.page-item
+           a.page-link(href='?page=' + parseInt(page+1),style= hide2 ? "display:none" : "" )  <i class="fas fa-chevron-right"></i>
+            //- nếu page là 1 thì trick1= true;
+            //- nếu page là 2 , 3 thì trick1 = false, trick2 = true;
+            //- nếu page là 4 thì trick1 = false, trick2 = false;
+
+
+        //- li.page-item 
+        //-   a.page-link.last(href='?page=' + totalPage,style= hide2 ? "display:none" : "" )  <i class="fas fa-angle-double-right"></i>
+
+    script(type="text/javascript" src="/javascript/script.js")   
+
+                

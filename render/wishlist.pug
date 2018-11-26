@@ -1,0 +1,24 @@
+extends ../layout/bootstrap.pug
+block bootstrap
+  h1(class="text-center") My Wishlist
+    a(href="/wishlist/create", class="btn btn-info" , class="float-right") Add
+   
+   
+  .container.pt-5
+    .row
+      if books
+        each book in books
+          .col-4
+            .card(style='width: 20rem;' class="text-center mb-4")
+                .bg2
+                  img.card-img-top(src= book.avatar, height="304px" width="100px" alt='Card image cap')
+                .card-body
+                  h5.card-title=book.name
+                  h6.card-title=book.author
+                  p.card-text
+                    =book.description
+                  a.btn.btn-info(href='/wishlist/add/' + book.id) Already Done
+   
+  
+  
+      

@@ -1,0 +1,23 @@
+html
+  head  
+     
+    link(rel="stylesheet" href="/css/style.css")
+  body
+    
+
+     
+      form(method="POST", enctype="multipart/form-data")
+        h1(class="text-center") TEST
+        .form-group 
+          input(type="text", id="name", name="name" required ,autocomplete="off")
+          label(for="name") Name
+        .form-group
+          input(type="text", id="author", name="author" required, autocomplete="off")
+          label(for="Author") Author
+        .form-group
+          input(type="text", id="description", name="description" required, autocomplete="off")
+          label(for="description" id="de") Description
+        .form-group
+          input.form-control-file(type='file', name="avatar")
+        .form-group
+          button(class="btn btn-primary") Add

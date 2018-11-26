@@ -1,0 +1,82 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+label {
+    color: #444141;
+
+}
+
+button.btn.btn-primary {outline:none;width: 233px;border-radius: 50px;font-size: 18px;padding: 15px 20px;/* border-bottom: none; */color: white;background-color: dodgerblue;border: none;}
+
+button.btn.btn-primary:hover {
+    background-color: #178afbde;
+}
+
+input {
+    margin-bottom: 50px;
+    border: none;
+    border-bottom: 2px solid gray;
+    outline: none;
+    width: 220px;
+}
+
+label {
+    position: absolute;
+    left: 4px;
+    top: -4px;
+}
+body{
+    font-family: "Roboto", sans-serif;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url('/images/books_library_old_111388_3840x2400.jpg') no-repeat 50% 50%;
+    background-size: cover;
+}
+h1{
+    text-align: center;
+}
+
+h1.text-center {
+    margin-bottom: 50px;
+    font-size: 36px;
+    font-weight: 300;
+    user-select: none;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 70px 70px;
+    background-color: white;
+    box-shadow: 0 0 10px gray;
+}
+.form-group{
+    position: relative;
+}
+
+input:focus + label, input:valid + label{ 
+  top:-30px;
+  color:dodgerblue;
+}
+ 
+input:focus , input:valid{
+    border-bottom: 2px solid dodgerblue;
+    font-size: 20px;
+    
+}
+input.form-control-file {
+    width: 94px;
+    background-color: white;
+    border-bottom: none;
+}
+
+ 
+.bg2 {
+    width: 100%;
+    background-color: black;
+}

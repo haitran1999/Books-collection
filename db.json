@@ -1,0 +1,111 @@
+{
+  "books": [
+    {
+      "name": "Trại trẻ kì lạ của cô Peregrine",
+      "author": "Ransom Riggs",
+      "description": "Cuốn sách đầu tiên tui bắt đầu đọc",
+      "avatar": "uploads\\f46a1f2f5599f1c59be489411783a15c"
+    },
+    {
+      "name": "Thành phố hồn rỗng ",
+      "author": "Ransom Riggs",
+      "description": "Phần 2 của bộ miss peregrine's home for peculiar",
+      "avatar": "uploads\\a0e05744106c4c995b7285b4f7d66fd6"
+    },
+    {
+      "name": "Thư viên linh hồn",
+      "author": "Ransom Riggs",
+      "description": "Phần 3 của miss peregrine's home for peculiar",
+      "avatar": "uploads\\de8e99b68b681a073e7f320abc703b91"
+    },
+    {
+      "name": "Hành trình thành công của tuổi trẻ",
+      "author": "Roger Leslie",
+      "description": "-",
+      "avatar": "uploads\\ffd19e39a4c87d62620c4895a82eda0e"
+    },
+    {
+      "name": "Để làm nên sự nghiệp",
+      "author": "H.N.Casson",
+      "description": "--",
+      "avatar": "uploads\\2bbc7ebb2510b511affc2eeec880036f"
+    },
+    {
+      "name": "Tuổi trẻ đáng giá bao nhiêu",
+      "author": "Rosie Nguyễn",
+      "description": "Khá hay",
+      "avatar": "uploads\\baafc26a7c54aa2963f69f4f677a49ba"
+    },
+    {
+      "name": "Quẳng gánh lo đi & vui sống",
+      "author": "Dale Carnegie",
+      "description": "Good one",
+      "avatar": "uploads\\62a4f11d1e7a36c64c1dcde3a9b520f6"
+    },
+    {
+      "name": "Kỉ luật = tự do",
+      "author": "Jocko Wilink",
+      "description": "Vẫn mong mình sống kỉ luật hơn nữa",
+      "avatar": "uploads\\02d9313a4d7cd79bab938778c6e3c19a"
+    },
+    {
+      "name": "Ngủ ơi là ngủ bao nhiêu là đủ",
+      "author": "Satoshi Tsubota",
+      "description": "Hiểu rõ  hơn về giấc ngủ. Ngủ thế nào là đủ. ",
+      "avatar": "uploads\\495b1c3ae1b44c20fa0be2ff1e764a68"
+    },
+    {
+      "name": "Bình thản và tiếp tục sống",
+      "author": "-",
+      "description": "-",
+      "avatar": "uploads\\12761aeb8b856a9826ff632a83f882b9"
+    },
+    {
+      "name": "Hãy sống cuộc đời như bạn muốn",
+      "author": "Pam Grout",
+      "description": "Live your life as you expected",
+      "avatar": "uploads\\0cff70f57f5d18c2520c438822ed75d2"
+    },
+    {
+      "name": "Lối sống tối giản của người Nhật",
+      "author": "Sasaki Fumio",
+      "description": "Nhiều điều thú vị lắm lun",
+      "avatar": "uploads\\43eec96e62b5a699383083e96946baa6"
+    },
+    {
+      "name": "Tuổi 20 Những năm tháng quyết định cuộc đời bạn",
+      "author": "Meg Jay",
+      "description": "Use it wisely before it's gone",
+      "avatar": "uploads\\43c57c8111682ec76d90e9d9990a0cb8"
+    },
+    {
+      "name": "Sức mạnh của tập trung",
+      "author": "-",
+      "description": "-",
+      "avatar": "uploads\\d2801a4d0cf61a9a36798ef2718a0b6d"
+    },
+    {
+      "name": "Sức mạnh của ngôn từ",
+      "author": "Don Gabor",
+      "description": "Boring",
+      "avatar": "uploads\\dec22ea58c0b1913c14085ddc50d4c37"
+    },
+    {
+      "name": "Lời nguyền của hoàng đế",
+      "author": "Hồ Diên Ân ",
+      "description": "Excellent",
+      "avatar": "uploads\\3263130c64e43ae7253668265ec36d91"
+    },
+    {
+      "name": "fdafadf",
+      "author": "adfdaf",
+      "description": "adfadf",
+      "avatar": "uploads\\54f08607ad151ffb01ea3308f357da7b"
+    },
+    {
+      "name": "đâsdasdasdd",
+      "author": "đâsd",
+      "description": "đâsdasd"
+    }
+  ]
+}

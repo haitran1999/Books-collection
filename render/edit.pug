@@ -1,0 +1,23 @@
+html
+  head
+     
+    link(rel="stylesheet" href="/css/style.css")
+  body
+    
+
+     
+      form(action="/product/edit/" + values.id ,method="POST", enctype="multipart/form-data")
+          h1(class="text-center") Edit
+          .form-group 
+            input(type="text", id="name", name="name" ,value=values ? values.name : "")
+            label(for="name") Name
+          .form-group
+            input(type="text", id="author", name="author" ,value=values ? values.author : "")
+            label(for="Author") Author
+          .form-group
+            input(type="text", id="description", name="description" ,value=values ? values.description : "")
+            label(for="description") Description
+          .form-group
+            input.form-control-file(type='file', name="avatar")
+          .form-group
+            button(class="btn btn-primary") Edit
